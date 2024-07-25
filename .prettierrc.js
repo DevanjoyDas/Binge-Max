@@ -6,4 +6,4 @@ module.exports = {
     jsxBracketSameLine: true,
     jsxSingleQuote: true,
     arrowParens: 'avoid'
-};
+}; 
