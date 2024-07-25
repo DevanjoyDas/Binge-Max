@@ -9,7 +9,7 @@ const Navbar = dynamic(import('../Navbar'));
 
 interface Layout {
   children: React.ReactNode;
-}
+} 
 
 const SCROLL_LIMIT: number = 80;
 

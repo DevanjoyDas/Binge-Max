@@ -10,7 +10,7 @@ export const BreakpointValues: Record<Breakpoint, number> = {
 export enum Breakpoint {
   XS = 'XS',
   SM = 'SM',
-  MD = 'MD',
+  MD = 'MD', 
   LG = 'LG',
   XL = 'XL',
   XXL = 'XXL'

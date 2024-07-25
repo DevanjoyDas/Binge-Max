@@ -10,7 +10,7 @@ import { Add, Play, Down, Like, Dislike } from '../../utils/icons';
 const Button = dynamic(import('../Button'));
 
 interface CardsProps {
-  defaultCard?: boolean;
+  defaultCard?: boolean; 
   item: Media;
 }
 

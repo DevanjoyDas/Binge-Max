@@ -7,7 +7,7 @@ import { Media } from '../../types';
 import { Play, Info } from '../../utils/icons';
 import { ModalContext } from '../../context/ModalContext';
 import styles from '../../styles/Banner.module.scss';
-
+ 
 
 
 export default function Banner() {

@@ -19,9 +19,10 @@ export default function Footer() {
           <Twitter />
         </a>
         <a href='https://github.com/DevanjoyDas' className={styles.icon} target='_blank' rel='noreferrer'>
-          <Github />
+          <Github /> 
         </a>
       </div>
     </div>
   );
 }
+ 

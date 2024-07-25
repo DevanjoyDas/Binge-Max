@@ -13,7 +13,7 @@ export function parse(array: any[], type: MediaType): Media[] {
       poster: getImageUrl(element.poster_path, 'poster'),
       banner: getImageUrl(element.backdrop_path, 'original'),
       genre: getGenre(element.genre_ids, type)
-    };
+    }; 
 
     parsedResponse.push(resolved);
   });

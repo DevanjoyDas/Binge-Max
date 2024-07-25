@@ -13,7 +13,7 @@ export type DimensionDetail = {
   isMobile: boolean;
   isTablet: boolean;
   isDesktop: boolean;
-};
+}; 
 
 export type Genre = {
   id: number;

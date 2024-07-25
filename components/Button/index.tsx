@@ -7,7 +7,7 @@ interface ButtonProps {
   Icon: IconType;
   rounded?: boolean;
   onClick?: () => void;
-}
+} 
 
 export default function Button(props: ButtonProps): React.ReactElement {
   const { filled, label, Icon, rounded, onClick } = props;

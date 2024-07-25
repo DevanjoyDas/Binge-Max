@@ -14,7 +14,7 @@ export default function useDebounce({ input, delay }: DebounceProps) {
     }, delay);
 
     return () => clearTimeout(handler);
-  }, [input]);
+  }, [input]); 
 
   return debounceValue;
 }

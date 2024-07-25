@@ -10,7 +10,7 @@ const Profile = dynamic(import('./Profile'));
 const SearchBar = dynamic(import('./SearchBar'));
 const Menu = dynamic(import('./Menu'));
 
-interface NavbarProps {
+interface NavbarProps { 
   isScrolled: boolean;
 }
 
